@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none
+}
+
+body {
+    font-family: 'Concert One', cursive;
+}
+
+/*Estilos header*/
+
+.header-background {
+    background: rgb(17,190,22);
+    background: linear-gradient(90deg, rgba(17,190,22,1) 0%, rgba(53,94,29,1) 100%);
+}
+
+.container {
+    max-width: 1205px;
+    padding: 0 5%;
+    margin: 0 auto
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-menu a {
+    font-size: 40px;
+    font-weight: bold;color: darkgreen;
+    
+}
+
+.lista-menu {
+    display: flex;
+    align-items: center;
+}
+
+.lista-menu li {
+    margin: 0 35px;
+    font-size: 25px;
+}
+
+.lista-menu li a {
+    color: white;
+}
+
+.btn-menu {font-family: 'Concert One', cursive; font-size: 25px;
+    padding: 15px 25px;
+    color: green;
+    border: none;
+    cursor: pointer;
+    background-color:white ;}
+
+
+    /*Estilos main*/
+main, .container {display: flex;
+    align-items: center;
+    justify-content: space-around;}
+
+    .texto-main div {
+        display: flex;
+        align-items: center;
+    }
+
+    .texto-main {
+        width: 75%; color: white;    }
+
+    .texto-main img {
+        width:100%; padding: 25px;
+    }
